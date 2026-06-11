@@ -1,11 +1,11 @@
-import streamlit as st
+import keras
 import numpy as np
 import tensorflow as tf
 from PIL import Image
 
 # Load trained models
-mnist_model = tf.keras.models.load_model("mnist_model.keras")
-emnist_model = tf.keras.models.load_model("emnist_model.keras")
+mnist_model = keras.models.load_model("mnist_model.keras")
+emnist_model = keras.models.load_model("emnist_model.keras")
 
 st.set_page_config(page_title="Handwritten Recognition", layout="centered")
 
