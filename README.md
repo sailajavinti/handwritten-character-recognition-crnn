@@ -36,8 +36,3 @@ This project is a deep learning-based handwritten digit and character recognitio
 
 ---
 
-## ▶️ How to Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
